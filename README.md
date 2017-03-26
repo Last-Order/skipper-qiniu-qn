@@ -1,6 +1,9 @@
 # skipper-qiniu-qn
 使用了[qn](https://github.com/node-modules/qn)替代官方SDK。
 
+**WARNING!! 请立即更新至1.1.1及以上版本来避免可能的致命错误。**
+
+**WARNING!! Please update to 1.1.1 or higher version to avoid an critical error.**
 ## Examples
 
 ```Javascript
