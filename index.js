@@ -57,8 +57,9 @@ module.exports = function SkipperQiniu(globalOptions) {
         if (err){
             next(err);
         }
-
-        next(undefined, result);
+        else{
+            next(undefined, result);
+        }
       });
     }
     return receiver;
